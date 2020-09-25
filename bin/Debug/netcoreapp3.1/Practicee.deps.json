@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "School/1.0.0": {
+      "Practicee/1.0.0": {
         "runtime": {
-          "School.dll": {}
+          "Practicee.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "School/1.0.0": {
+    "Practicee/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

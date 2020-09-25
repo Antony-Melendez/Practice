@@ -1,0 +1,13 @@
+D:\User\Documents\GitHub\Practicee\bin\Debug\netcoreapp3.1\Practicee.exe
+D:\User\Documents\GitHub\Practicee\bin\Debug\netcoreapp3.1\Practicee.deps.json
+D:\User\Documents\GitHub\Practicee\bin\Debug\netcoreapp3.1\Practicee.runtimeconfig.json
+D:\User\Documents\GitHub\Practicee\bin\Debug\netcoreapp3.1\Practicee.runtimeconfig.dev.json
+D:\User\Documents\GitHub\Practicee\bin\Debug\netcoreapp3.1\Practicee.dll
+D:\User\Documents\GitHub\Practicee\bin\Debug\netcoreapp3.1\Practicee.pdb
+D:\User\Documents\GitHub\Practicee\obj\Debug\netcoreapp3.1\Practicee.csprojAssemblyReference.cache
+D:\User\Documents\GitHub\Practicee\obj\Debug\netcoreapp3.1\Practicee.AssemblyInfoInputs.cache
+D:\User\Documents\GitHub\Practicee\obj\Debug\netcoreapp3.1\Practicee.AssemblyInfo.cs
+D:\User\Documents\GitHub\Practicee\obj\Debug\netcoreapp3.1\Practicee.csproj.CoreCompileInputs.cache
+D:\User\Documents\GitHub\Practicee\obj\Debug\netcoreapp3.1\Practicee.dll
+D:\User\Documents\GitHub\Practicee\obj\Debug\netcoreapp3.1\Practicee.pdb
+D:\User\Documents\GitHub\Practicee\obj\Debug\netcoreapp3.1\Practicee.genruntimeconfig.cache

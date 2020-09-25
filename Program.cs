@@ -1,10 +1,6 @@
-﻿/*
-Programmer: Antony Melendez
-Description: juest testing 
-Date: 09/24/20
-*/
-using System;
-namespace School
+﻿using System;
+
+namespace Practicee
 {
     class Program
     {
@@ -22,7 +18,6 @@ namespace School
 
             float mTotal = mItems * mPrice;
             float dTotal = dItems * dPrice;
-
 
             float aTotal = mTotal + dTotal * tip;
 
