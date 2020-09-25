@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\preda\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\preda\\.nuget\\packages"
+    ]
+  }
+}
