@@ -1,9 +1,11 @@
+count = 1
+while(count < 10):
+    if count == 5:
+        break
+    else:
+        print(count)
 
-i = 1
-j = 1
+        count += 1
+        continue
 
-while(i < 11):
-    while(j < 11):
-        print(i , "*" , j , "=" , i * j , "\t" , end="")
-        j = j + 1
-    i = i +1
+print("we are outside the loop becasue of break statement>")
