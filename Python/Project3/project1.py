@@ -8,13 +8,13 @@ Date: 10/16/20
 money = 0
 change = money
 
-drink_1, drink_1_Price = "Coca_Cola", 1.00
-drink_2, drink_2_Price = "Pepsi", 1.00
-Chips_1, crips_1_Price = "Hot_cheetos", 1.00
-Chips_2, crips_2_Price = "Takis", 2.00
+drink_1, drink_1_Price = "Espresso ", 1.00
+drink_2, drink_2_Price = "Americano ", 1.00
+Chips_1, crips_1_Price = "Café au Lait", 1.00
+Chips_2, crips_2_Price = "Latte ", 2.00
 
 print("Welcome! \n***************************************************")
-money = float(input("Please insert money: "))
+money = float(input("Please insert money $: "))
 
 print("your total is : $" + str(money) +
       "\n***************************************************")
@@ -43,18 +43,5 @@ while change > 0:
         change = round((change - drink_2_Price), 2)
         print("You have this much money remaining: $", change)
 
-    elif customer_choice == "hot_Cheetos" or customer_choice == "hot cheetos" and change >= crips_1_Price:
-        print("You have chosen a", Chips_1,
-              "these cost", crips_1_Price, "each,")
-        change = round((change - crips_1_Price), 2)
-        print("You have this much money remaining: $", change)
-
-    elif customer_choice == "Takis" or customer_choice == "takis" and change >= crips_2_Price:
-        print("You have chosen a", Chips_2,
-              "these cost", crips_2_Price, "each,")
-        change = round((change - crips_2_Price), 2)
-        print("You have this much money remaining: $", change)
-
     else:
         print("Insufficient funds, no sale!")
-        print("Do you want to try again? Y/ N \n***************************************************")
