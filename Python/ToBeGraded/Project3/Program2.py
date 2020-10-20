@@ -17,7 +17,7 @@ print("L: {}".format(lSize))
 
 print("\n***********************************************************")
 
-# Take user input
+# Take user input && print user choice
 while(True):
     userChoice = input("What size would you like ? :").upper()
 
@@ -36,9 +36,6 @@ while(True):
     else:
         print("Invalid drink size try again: ")
         continue
-
-# print user choice
-print("You have ordered a:" , userChoice)
 
 print("\n***********************************************************")
 #Program ends 
