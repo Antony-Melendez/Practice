@@ -6,19 +6,16 @@ namespace IntroUI
     class Program
     {
 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            greetUser();
             input();
+            Console.WriteLine("\n***********************************************************");
+
+            //endProgram();
+            Console.WriteLine("\n***********************************************************");
         }
 
-        private static void greetUser()
-        {
-            Console.WriteLine("Welcom!");
-            Console.WriteLine("Please enter the following inputs: ");
-        }
-
-        static void input()
+        public static void input()
         {
             Console.WriteLine("Enter you first name: ");
             personModel.FirstName = Console.ReadLine();
@@ -27,12 +24,20 @@ namespace IntroUI
             Console.WriteLine("Enter you age: ");
             personModel.Age = Convert.ToInt32(Console.ReadLine());
 
-            exitProgram();
+            greetUser();
+            Console.WriteLine("\n***********************************************************");
         }
 
-        private static void exitProgram()
+        private static void greetUser()
         {
+            Console.WriteLine("Hello ", personModel.FirstName, "", personModel.LastName, " your age is: ", personModel.Age);
+        }
+
+        private static void endProgram()
+        {
+            Console.WriteLine("\n***********************************************************");
             Console.WriteLine("Goodbye!");
+            //System.Environment.Exit(0);
         }
     }
 }
