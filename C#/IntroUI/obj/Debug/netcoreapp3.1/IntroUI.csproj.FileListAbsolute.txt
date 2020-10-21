@@ -1,0 +1,16 @@
+D:\User\Documents\GitHub\Practice\C#\IntroUI\bin\Debug\netcoreapp3.1\IntroUI.exe
+D:\User\Documents\GitHub\Practice\C#\IntroUI\bin\Debug\netcoreapp3.1\IntroUI.deps.json
+D:\User\Documents\GitHub\Practice\C#\IntroUI\bin\Debug\netcoreapp3.1\IntroUI.runtimeconfig.json
+D:\User\Documents\GitHub\Practice\C#\IntroUI\bin\Debug\netcoreapp3.1\IntroUI.runtimeconfig.dev.json
+D:\User\Documents\GitHub\Practice\C#\IntroUI\bin\Debug\netcoreapp3.1\IntroUI.dll
+D:\User\Documents\GitHub\Practice\C#\IntroUI\bin\Debug\netcoreapp3.1\IntroUI.pdb
+D:\User\Documents\GitHub\Practice\C#\IntroUI\bin\Debug\netcoreapp3.1\IntroLibrary.dll
+D:\User\Documents\GitHub\Practice\C#\IntroUI\bin\Debug\netcoreapp3.1\IntroLibrary.pdb
+D:\User\Documents\GitHub\Practice\C#\IntroUI\obj\Debug\netcoreapp3.1\IntroUI.csprojAssemblyReference.cache
+D:\User\Documents\GitHub\Practice\C#\IntroUI\obj\Debug\netcoreapp3.1\IntroUI.AssemblyInfoInputs.cache
+D:\User\Documents\GitHub\Practice\C#\IntroUI\obj\Debug\netcoreapp3.1\IntroUI.AssemblyInfo.cs
+D:\User\Documents\GitHub\Practice\C#\IntroUI\obj\Debug\netcoreapp3.1\IntroUI.csproj.CoreCompileInputs.cache
+D:\User\Documents\GitHub\Practice\C#\IntroUI\obj\Debug\netcoreapp3.1\IntroUI.csproj.CopyComplete
+D:\User\Documents\GitHub\Practice\C#\IntroUI\obj\Debug\netcoreapp3.1\IntroUI.dll
+D:\User\Documents\GitHub\Practice\C#\IntroUI\obj\Debug\netcoreapp3.1\IntroUI.pdb
+D:\User\Documents\GitHub\Practice\C#\IntroUI\obj\Debug\netcoreapp3.1\IntroUI.genruntimeconfig.cache

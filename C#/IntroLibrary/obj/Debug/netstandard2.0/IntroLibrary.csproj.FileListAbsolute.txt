@@ -1,0 +1,9 @@
+D:\User\Documents\GitHub\Practice\C#\IntroLibrary\bin\Debug\netstandard2.0\IntroLibrary.deps.json
+D:\User\Documents\GitHub\Practice\C#\IntroLibrary\bin\Debug\netstandard2.0\IntroLibrary.dll
+D:\User\Documents\GitHub\Practice\C#\IntroLibrary\bin\Debug\netstandard2.0\IntroLibrary.pdb
+D:\User\Documents\GitHub\Practice\C#\IntroLibrary\obj\Debug\netstandard2.0\IntroLibrary.csprojAssemblyReference.cache
+D:\User\Documents\GitHub\Practice\C#\IntroLibrary\obj\Debug\netstandard2.0\IntroLibrary.AssemblyInfoInputs.cache
+D:\User\Documents\GitHub\Practice\C#\IntroLibrary\obj\Debug\netstandard2.0\IntroLibrary.AssemblyInfo.cs
+D:\User\Documents\GitHub\Practice\C#\IntroLibrary\obj\Debug\netstandard2.0\IntroLibrary.csproj.CoreCompileInputs.cache
+D:\User\Documents\GitHub\Practice\C#\IntroLibrary\obj\Debug\netstandard2.0\IntroLibrary.dll
+D:\User\Documents\GitHub\Practice\C#\IntroLibrary\obj\Debug\netstandard2.0\IntroLibrary.pdb
