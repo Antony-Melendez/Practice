@@ -31,21 +31,18 @@ while(True):
     if userChoice == '1':
         print("You have ordered a: " + drink_1)
         break
-
     elif userChoice == '2':
         print("You have ordered a: " + drink_2)
         break
-
     elif userChoice == '3':
         print("You have ordered a: " + drink_3)
         break
     elif userChoice == '4':
         print("You have ordered a: " + drink_4)
         break
-
     else:
         print("Invalid drink try again: ")
         continue
 
 print("\n***********************************************************")
-#Program ends 
+# Program ends
