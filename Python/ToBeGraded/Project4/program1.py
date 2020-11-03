@@ -1,4 +1,4 @@
-'''
+''''
 Programmer: Antony Melendez
 
 Description: Create a menu to allow the user to add, insert, remove,
@@ -23,14 +23,13 @@ menuPrices = []
 
 # funtions
 
-# adds names and prices to the lists
 
-
+# adds names and prices to the lists -- done
 def addToList():
     userNumber = int(input("How many name entries will you need? "))
     for i in range(userNumber):
         names = input("Please insert the user names: " +
-                      str(i + 1) + ":").upper()
+                      str(i + 1) + ":").capitalize()
         userNames.append(names)
 
     userNumber = int(input("How many price entries will you need? "))
@@ -42,16 +41,20 @@ def addToList():
     print(userNames, menuPrices)
 
 
-# removes names from the lists
+# removes names from the lists -- bug -- when the user removes all the items from the list the program crashes
 def removeFromList():
-    _removed = userNames.pop()
-    print("You removed ", _removed)
+    _removed = int(input(":"))
+    del(userNames[_removed])
+    print(userNames)
+
     print(
         "******************************************************************************************")
 
 
+# inserts new item to index 0 -- done
 def insertToList():
-    print("")
+    insertingNew = input("where do you want to insert?")
+    userNames.insert(0, insertingNew)
 
 
 # find the mximun in the lists
@@ -60,12 +63,13 @@ def findMaximun():
     print(max(menuPrices))
 
 
-# find the minimun in the list
+# find the minimun in the list -- done
 def fingMinimum():
     print(min(userNames))
     print(min(menuPrices))
 
 
+# sorts the list -- done
 def sortList():
     userNames.sort(reverse=True)
     menuPrices.sort(reverse=True)
@@ -90,7 +94,7 @@ def validationUserInput():
             continue
 
 
-# checks if the user enter the correct input from the givin options
+# checks if the user enter the correct input from the givin options -- done
 def rangeValidation(option):
     while(option <= 0 or option > 7):
         print("not within the range try again... 1-7")
@@ -100,6 +104,13 @@ def rangeValidation(option):
     return option
 
 
+# made this function to close the program and print out goodbye -- done
+def endProgram():
+    print("Goodbye...")
+    exit()
+
+
+# asks the user what option they want to use -- done
 def start():
     answer = "YES"
     while(answer == "YES"):
@@ -117,10 +128,7 @@ def start():
         elif option == 6:
             sortList()
         elif option == 7:
-            print(
-                "******************************************************************************************")
-            print("Goodbye...")
-            exit()
+            endProgram()
 
     answer = input("Do you want to continue? YES/NO ").upper()
 
